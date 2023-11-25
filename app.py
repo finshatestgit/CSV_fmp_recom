@@ -3,15 +3,12 @@ import pyodbc
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 import requests
 import json
 import os
 import logging
 
 app = Flask(__name__)
-
-# load_dotenv()
 
 # Setting up logging
 logging.basicConfig(level=logging.INFO)
