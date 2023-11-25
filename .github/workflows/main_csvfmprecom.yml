@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'csvFMPrecom'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22B1B3190C2B4585ADC23438CBC28304 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C3369BF54F96482CBCFFFA5F29002D94 }}
